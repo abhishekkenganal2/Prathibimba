@@ -1,5 +1,5 @@
 Name : Online Examination System
-Technologies : React js, Node js, Express js, Mongo Db, Ant Design, Redux js
+Technologies : React js, Node js, Express js, Mongo Db, Ant.Design, Redux js
 Key features:
     1. User management
     2. Modular code
@@ -12,8 +12,15 @@ Key features:
 
 
 Steps to use:
-1. open the default.json file located inside the config folder in backend directory.
-2. Make the required changes in it
-3. Call the `createadmin`(located inside tool.js inside services) function after putting admin details in it from app.js file and run the server
-3. To run the server, use "nodemon" in backend directory
-4. Once an admin account is created, remove the `createadmin` invocation from app.js and restart the server.
+1. Install MongoDb and get register in that, then create database in it.
+2. Now download nodejs in your system.
+3. open the default.json file located inside the config folder in backend directory.
+4. Make the required changes in it
+5. Put admin details in app.js file
+6. Uncomment the `createadmin` function (located inside connection.js inside services).
+7. Create split terminals. In right side terminal enter inside backend repository and in leftside terminal enter inside frontend terminal. 
+    and run the backend repository server using "npm start".
+8. Split the vs code terminal screen and get inside frontend repository and install yarn. [ For installing yarn in vs code,command is -> "sudo yarn install"]
+9. Now run "sudo yarn add react-scripts@latest" in frontend repository side
+10. To run the server, "nodemon" in backend directory
+11. Once an admin account is created, remove the `createadmin` invocation from app.js and restart the server.
