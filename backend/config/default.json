@@ -1,0 +1,12 @@
+{
+    "mongodb": {
+        "connectionString": "mongodb+srv://admin:admin123@cluster0.exkg8we.mongodb.net/test"
+    },
+    "jwt": {
+        "secret" : "EMP"
+    },
+    "mail-credentials" : {
+        "userid" :"abhi",
+        "password" : "abhi123"
+    }
+}

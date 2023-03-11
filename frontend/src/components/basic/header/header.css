@@ -1,0 +1,30 @@
+.header-container-2{
+    position: absolute;
+    padding: 0px 50px; 
+    width:100%;
+}
+.logo{
+    border-radius: 20px;
+    width:10%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.header-container .logo,.header-container .navigation{
+    display: inline;
+}
+.navigation{
+    list-style: none;
+    position: relative;
+    right:50px;
+    float: right;
+    top:50px;
+}
+.navigation li{
+    display: inline;
+    color: aliceblue;
+    font-size: 17px;
+    
+}
+.p{
+    padding-right:50px;
+}
