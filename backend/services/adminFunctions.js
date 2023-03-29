@@ -10,7 +10,7 @@ let trainerRegister = (req,res,next)=>{
             req.check('password','Invalid password').isLength({min : 5,max :10});
             req.check('emailid', ` Invalid email address`).isEmail().notEmpty();
         }
-        req.check('contact','Invalid contact number').isLength({min : 13,max :13}).isNumeric({no_symbols: false});
+        req.check('contact','Invalid contact number').isLength({min : 10,max :13}).isNumeric({no_symbols: false});
         var errors = req.validationErrors()
         if(errors){
             res.json({
