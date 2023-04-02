@@ -7,7 +7,6 @@ import HomepageHeader from '../header/header';
 import auth from '../../../services/AuthServices';
 import { Redirect } from 'react-router-dom';
 
-
 function Homepage(props) {
   if(auth.retriveToken() && auth.retriveToken()!=='undefined'){
     console.log('Logged In');

@@ -6,7 +6,7 @@ import { Post } from '../../../services/axiosCall';
 import { Icon,Button,Row,Col,Radio,Checkbox,Tooltip } from 'antd';
 import { switchQuestion,updateIsMarked, fetchTestdata } from '../../../actions/traineeAction';
 import './portal.css';
-import './Diksha.css';
+import './singleQuestion.css';
 
 class SingleQuestion extends React.Component{
     constructor(props){

@@ -5,10 +5,11 @@
 }
 .logo{
     border-radius: 20px;
-    width:10%;
-    margin-left: 50px;
-    margin-top: 50px;
+    width:8%;
+    margin-left: 1px;
+    margin-top: 10px;
 }
+
 .header-container .logo,.header-container .navigation{
     display: inline;
 }

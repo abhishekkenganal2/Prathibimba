@@ -3,7 +3,6 @@ var config = require('config');
 let tool = require("./tool")
 
 
-
 //database connection
 mongoose.Promise = global.Promise;
 const options = {
