@@ -1,10 +1,5 @@
 .parallax {
-    /* background-image: url('./mountains.jpg');
-    height: 100vh; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
+    
     background: rgb(65,161,255);
     background: linear-gradient(319deg, rgba(65,161,255,1) 0%, rgba(252,206,35,1) 71%);
     height: 100vh;

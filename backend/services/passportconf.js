@@ -50,8 +50,6 @@ passport.use('login',new LocalStrategy({
 ));
 
 
-
-
 //options jwt
 var opts = {}
 //opts.jwtFromRequest = ExtractJwt.fromHeader('authorization');

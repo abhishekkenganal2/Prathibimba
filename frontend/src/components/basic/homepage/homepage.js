@@ -18,10 +18,10 @@ function Homepage(props) {
       <div>          
           <div className="parallax">
             <HomepageHeader/>
-            <h1>Prathibimba Platform</h1>
+            <h1>PRATHIBIMBA-PLATFORM</h1>
+            
             <Login class="login"/>
-          </div>
-          
+          </div>          
       </div>
     );
   }

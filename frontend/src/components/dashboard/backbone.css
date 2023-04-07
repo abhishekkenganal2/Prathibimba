@@ -19,12 +19,12 @@
     z-index: 10;
 }
 
-.d-logo{
+.d-logo {
     border-radius: 20px;
     height:55px;
     margin-top:-17px;
 }
-.user-options-list{
+.user-options-list {
     position:fixed;
     top:0px;
     right:-15px;
